@@ -36,7 +36,6 @@ GameObject.prototype._Update = function(){
   this.$node.attr('src',this.images[this._image]);
   var styleSettings = {left: this.position.x-this.$node.width/2,top: this.position.y-this.$node.height/2};
   this.$node.css(styleSettings);
-  //TODO: Update Rotation
 
   //Schedule the next update
   var that=this;
